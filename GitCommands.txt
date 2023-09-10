@@ -1,0 +1,17 @@
+1. git init // To create a Git folder on  the work folder, this Git folder will track down all the changes made on the workfolder, 
+like add, delete, this folder will also check for all the commits
+
+2. add git foldername.cpp to add the folder to git
+
+3. add git . => to add all the files at a single time
+
+4.  git status => to check the files added, updated or deleted status
+
+5. Commit => Save your files in Git
+
+6. Push => Upload Git commites to a remote repo, like Github
+
+7. Pull => Download changes from your remote repo to your local machine
+
+8.  git clone ssh.reponameongithubrepository => this will pull the reporitory to the local machine
+
