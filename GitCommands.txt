@@ -7,9 +7,9 @@ like add, delete, this folder will also check for all the commits
 
 4.  git status => to check the files added, updated or deleted status
 
-5. Commit => Save your files in Git
+5. Commit => Save your files in Git [git commit -m "your message here"]
 
-6. Push => Upload Git commites to a remote repo, like Github
+6. Push => Upload Git commites to a remote repo, like Github Code to push => [git push origin master]
 
 7. Pull => Download changes from your remote repo to your local machine
 
