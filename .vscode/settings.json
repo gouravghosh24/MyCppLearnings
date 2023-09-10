@@ -44,6 +44,27 @@
         "numbers": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "bitset": "cpp",
+        "charconv": "cpp",
+        "chrono": "cpp",
+        "coroutine": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp",
+        "ratio": "cpp",
+        "format": "cpp",
+        "iomanip": "cpp",
+        "ranges": "cpp",
+        "semaphore": "cpp",
+        "span": "cpp",
+        "sstream": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp",
+        "variant": "cpp"
     }
 }
