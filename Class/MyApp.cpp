@@ -13,6 +13,7 @@ public:
     // Memeber Functions declaration
     void RegForm();
     void Profiles();
+    void loginVerify();
 };
 
 // Member Function defination
@@ -80,6 +81,22 @@ void UserData::Profiles()
     std::cout << "________________________________________________" << std::endl;
 }
 
+// Login Verification function
+
+void UserData::loginVerify()
+{
+
+    if (Age > 17)
+    {
+        cout << "Your Login was successfull!" << endl;
+        Profiles();
+    }
+    else
+    {
+        cout << "You are not eligable! Under Age!" << endl;
+    }
+}
+
 // Main Function Entry Point
 
 int main()
@@ -89,7 +106,8 @@ int main()
 
     // calling memeber Functions of class Userdata
     RegiForm.RegForm();
-    RegiForm.Profiles();
+    //RegiForm.Profiles();
+    RegiForm.loginVerify();
 
     return 0;
 }
