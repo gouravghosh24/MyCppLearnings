@@ -16,6 +16,36 @@ public:
     void loginVerify();
 };
 
+// Class for the Login
+class Login
+{
+public:
+    string Username;
+    string Password;
+
+    void LoginForm();
+    bool check();
+};
+
+void Login::LoginForm()
+{
+
+    UserData RegiForm;
+
+    cout << "Enter your UserName: ";
+    cin >> Username;
+    cout << "Enter Password: ";
+    cin >> Password;
+    if(Username == Username && Password == Password){
+            RegiForm.RegForm();
+    }
+    else{
+        cout << "Invalid Login!" << endl;
+    }
+    
+}
+
+
 // Member Function defination
 
 // Fnction for signup page
@@ -105,9 +135,14 @@ int main()
     UserData RegiForm; // Calling the class in the main function and assigning a variable
 
     // calling memeber Functions of class Userdata
-    RegiForm.RegForm();
-    //RegiForm.Profiles();
-    RegiForm.loginVerify();
+    // RegiForm.RegForm();
+    // RegiForm.Profiles();
+    // RegiForm.loginVerify();
+
+    // Method for Login
+    Login Logins;
+
+    Logins.LoginForm();
 
     return 0;
 }
