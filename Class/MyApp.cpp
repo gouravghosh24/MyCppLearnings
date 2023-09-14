@@ -27,6 +27,7 @@ public:
     bool check();
 };
 
+// Function for Login form
 void Login::LoginForm()
 {
 
@@ -48,7 +49,7 @@ void Login::LoginForm()
 
 // Member Function defination
 
-// Fnction for signup page
+// Function for signup page
 void UserData::RegForm()
 {
     // FormVice to enter the details from the users
@@ -139,9 +140,10 @@ int main()
     // RegiForm.Profiles();
     // RegiForm.loginVerify();
 
-    // Method for Login
+    // Calling the class in the main function and assigning a variable
     Login Logins;
 
+    // calling memeber Functions of class Login
     Logins.LoginForm();
 
     return 0;
