@@ -18,6 +18,7 @@ int main() {
         if(i%2==0)
         sum +=i;
     }
-    cout << sum;
+    cout << sum << endl;
+
     return 0;
 }
